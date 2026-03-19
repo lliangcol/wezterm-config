@@ -8,8 +8,8 @@ local options = {
 if platform.is_win then
    options.default_prog = { 'pwsh', '-NoLogo' }
    options.launch_menu = {
-      { label = 'PowerShell Core',    args = { 'pwsh', '-NoLogo' } },
-      { label = 'PowerShell Desktop', args = { 'powershell' } },
+      { label = 'PowerShell 7',    args = { 'pwsh', '-NoLogo' } },
+      { label = 'Windows PowerShell', args = { 'powershell' } },
       { label = 'Command Prompt',     args = { 'cmd' } },
    }
 elseif platform.is_mac then
